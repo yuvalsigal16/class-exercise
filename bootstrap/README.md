@@ -102,3 +102,22 @@ git push origin main
 ## ✅ **סיימתם?**
 
 🔗 שתפו את הקישור לריפו שלכם עם הקוד המעודכן!
+
+## 📢 עדכון פתרון בסוף השיעור  
+בסוף השיעור, הפתרון יתווסף לתיקייה `bootstrap/solution.html`.  
+כדי להוריד את הפתרון, יש לבצע **Pull** מהריפו המקורי:  
+
+```bash
+git pull upstream main
+```
+
+💡 אם לא הוספתם את הריפו המקורי (`upstream`), הוסיפו אותו תחילה:  
+```bash
+git remote add upstream <URL של הריפו>
+git pull upstream main
+```
+📌 לאחר מכן, תוכלו למצוא את הפתרון בתיקייה:  
+```
+bootstrap/solution.html
+```
+🚀 **בהצלחה!**
