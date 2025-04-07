@@ -39,17 +39,22 @@
       <h2>טופס הזמנת פריטים</h2>
       <form>
         <!-- 1. שדה טקסט "שם" -->
-        <div class="form-group"></div>
+        <div class="form-group"><input type="text" placeholder="full name" maxlength="20"></div>
 
         <!-- 2. שדה סיסמה -->
-        <div class="form-group"></div>
-
+        <div class="form-group"> <input type="password"/></div>
+       
         <!-- 3. שדה בחירה כמות פריטים-->
         <!-- האפשרויות הם 1-3 -->
         <div class="form-group"></div>
 
+
         <!-- 4. Checkbox - הסכמה לתנאים -->
-        <div class="form-check"></div>
+        <div class="form-check">
+        <input type="radio"  value="רגיל" name="משלוח"/> רגיל <br>
+        <input type="radio" value="רשום" name="משלוח"/> רשום <br>
+        <input type="radio" value="מהיר" name="משלוח"/> מהיר
+      </div> 
 
         <!-- 5. בחירת סוג משלוח -->
         <!-- ברירת מחדל - משלוח רגיל -->
@@ -57,10 +62,10 @@
 
         <!-- 6. שדה טקסט עבור הערות עם 2 שורות-->
         <!-- textarea - 2 rows -->
-        <div class="form-group"></div>
+        <div class="form-group"><textarea cols="30" rows="2"></textarea></div>
 
         <!-- 7. כפתור שליחה -->
-        <div class="form-group mt-3"></div>
+        <div class="form-group mt-3"><button type="submit"> שלח טופס</button></div>
       </form>
     </div>
   </body>
